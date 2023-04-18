@@ -1,0 +1,131 @@
+.body {
+    &__about__title {
+        text-align: center;
+        font-family: 'Merienda';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        color: #000000;
+        padding-top: 80px;
+    }
+    &__about__text {
+        font-family: 'Merienda';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+        width: 589px;
+        margin: 40px auto 100px auto;
+    }
+    &__best {
+        min-height: 495px;
+        background: url('../img/bg_best.jpg') center center/cover no-repeat;
+        &__title {
+            font-family: 'Merienda';
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 35px;
+            text-align: center;
+            color: #000000;
+            padding-top: 80px;
+        }
+        &__items {
+            display: flex;
+            margin: 39px auto;
+            width: 800px;
+            justify-content: space-between;
+            cursor: pointer;
+        }
+    }
+    &__about_our {
+        display: flex;
+        justify-content: space-between;
+        width: 700px;
+        margin: 70px auto 60px auto;
+        &_img {
+            display: block;
+            width: 272px;
+        }
+        &_beans {
+            width: 346px;
+            h2 {
+                font-family: 'Merienda';
+                font-weight: 400;
+                font-size: 24px;
+                text-align: center;
+                line-height: 35px;
+                color: #000000;
+            }
+            p {
+                margin-top: 25px;
+                font-family: 'Merienda';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                color: #000000;
+            }
+        }
+    }
+    &__line {
+        width: 240px;
+        border: 1px solid #000000;
+        margin: 0 auto 60px auto;
+    }
+
+    &__about_product {
+        position: relative;
+        display: grid;
+        width: 856px;
+        grid-template-columns: 1fr 420px;
+        column-gap: 55px;
+        margin: 70px auto;
+        &__wrapper__img {
+            display: block;
+            position: relative;
+            img{
+                display: block;
+                width: 100%;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                
+            }            
+        }
+        &__title {
+            font-family: 'Merienda';
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 35px;
+            color: #000000;
+            text-align: center;
+        }
+        &__country, &__description {
+            font-family: 'Merienda';
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            color: #000000;
+            margin-top: 22px;
+            span {
+                font-weight: 400;
+            }
+        }
+        &__price {
+            margin-top: 16px;
+            font-family: 'Merienda';
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            color: #000000;
+            span {
+                font-size: 24px;
+                line-height: 35px;
+            }
+        }
+        .footer__logo {
+            margin-top: 10px;
+        }
+    }
+}

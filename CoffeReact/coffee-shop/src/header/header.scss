@@ -1,0 +1,95 @@
+.header {
+    position: relative;
+    background: url('../img/main_bg.png') center center/cover no-repeat;
+    height: 640px;
+    &__logo {
+        position: absolute;
+        top: 30px;
+    }
+    &__nav {
+        display: flex;
+        width: 355px;
+        justify-content: left;
+        }
+    &__nav__item {
+        font-family: 'Merienda', cursive;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: 30px;
+        margin-top: 52px;
+        cursor: pointer;
+    }
+    &.our_coffee {
+        height: 260px;
+        background: url('../img/main_bg_our_coffee.png') center center/cover no-repeat;
+    }
+    &.pleasure {
+        height: 260px;
+        background: url('../img/main_bg_pleasure.png') center center/cover no-repeat;
+    }
+}
+
+.main {
+    position: relative;
+    margin: 110px auto 0 auto;
+    &.our_coffee, &.pleasure {
+        margin-top: 60px;
+    }
+    h1 {
+        text-align: center;
+        font-family: 'Merienda';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 58px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    &__logo {
+        display: flex;
+        width: 200px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px auto 0 auto;
+    }
+    &__img {
+        display: block;
+    }
+    &__span_left, &__span_right {
+        display: block;
+        width: 60px;
+        height: 1px;
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    }
+    &__p, &__p2 {
+        margin-top: 34px;
+        font-family: 'Merienda';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
+        color: #FFFFFF;
+        text-align: center;
+        
+    }
+    &__p2 {
+        margin-top: 20px;
+    }
+    &__btn {
+        display: block;
+        margin: 20px auto 0 auto;
+        width: 120px;
+        height: 30px;
+        border: 1px solid #FFFFFF;
+        background-color: #fff0;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 3px;
+        font-family: 'Merienda';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #ffffff;
+    }
+}

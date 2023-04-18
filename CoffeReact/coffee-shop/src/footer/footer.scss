@@ -1,0 +1,40 @@
+.footer {
+    position: relative;
+    min-height: 150px;
+    &__nav {
+        display: flex;
+        position: relative;
+        width: 324px;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 52px;
+    }
+    &__nav__item {
+        font-family: 'Merienda';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        color: #000000;
+        cursor: pointer;
+    }
+    &__img {
+        position: absolute;
+        top: 30px;
+        left: -30px;
+    }
+    &__logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px auto 0 auto;
+        width: 200px;
+    }
+    &__span_left, &__span_right {
+        display: block;
+        width: 60px;
+        height: 1px;
+        border: 1px solid #000000;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    }
+
+}
